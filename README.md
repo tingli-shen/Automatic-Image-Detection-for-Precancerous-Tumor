@@ -25,7 +25,8 @@ python predict.py -i image1.jpg
 ## Performance
 The model scored [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient) of 0.645.
 Confusion Matrix
-
+| First Header  | Second Header |d|
+| ------------- | ------------- |d|
 | n=604  | Predicted: No  |Predicted: Yes  |
 | Predicted: No  | 0  |8 |
 |Predicted: Yes  |181  |423  |
