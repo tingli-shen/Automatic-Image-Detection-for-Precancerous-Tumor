@@ -6,13 +6,17 @@ This model was built on [Pytorch-UNet](https://github.com/milesial/Pytorch-UNet)
 This model implemented image segmentation with U-Net(convolutional networks for biomedical image segmentation) and was trained from scratch with 5000 images with data augmentation because we only had 500 images originally.
 
 ## Process
-Augment the data
+Augment the data to get 5000 images from 500 images.
 ```
-Python imgaug.py
+python imgaug.py
 ```
-Normalize file name of image
+Normalize file name of image.
 ```
-Python normalize_id.py
+python normalize_id.py
+```
+Train the model
+```
+python train.py -g True -e 100 -b 32 -s 0.8
 ```
 
 
