@@ -7,9 +7,9 @@ This model implemented image segmentation with U-Net(convolutional networks for 
 
 ## Process
 Augment the data to get 5000 images from 500 images (pip install Augmentor).
-``
+```
 python imgaug.py
-``
+```
 Normalize file name of image.
 ```
 python normalize_id.py
