@@ -18,5 +18,10 @@ Train the model
 ```
 python train.py -g True -e 100 -b 32 -s 0.8
 ```
+Predict a mask
+```
+python predict.py -i image1.jpg
+```
+
 
 
