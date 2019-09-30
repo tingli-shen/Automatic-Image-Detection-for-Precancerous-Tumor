@@ -28,8 +28,11 @@ The model scored [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%
 ### Confusion Matrix
 
 **true positives (TP)**: a image had tumor and the model predicted it.
+
 **true negatives (TN)**: a image had no tumor and the model predicted it.
+
 **false positives (FP)**: a image had not tumor but the model predicted there was a tumor.
+
 **false negatives (FN)**: a image had tumor but the model predicted there was not a tumor.
 
 | n=604  | Predicted: No  | Predicted: Yes  |
