@@ -32,4 +32,11 @@ Confusion Matrix
 | Predicted: No  | 0  | 8 |
 | Predicted: Yes  | 181  | 423  |
 
+| Container |  Capacity |
+|---|---|
+| Warehouse |  Infinite |
+|  Shelf  |  100 units |
+|   Bin | 10 units  |
+|  Box  |  5 units |
+|   Bag   |  2 units |
 
