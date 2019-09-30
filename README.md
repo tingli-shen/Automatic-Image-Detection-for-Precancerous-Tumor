@@ -29,8 +29,6 @@ Confusion Matrix
 
 | First Header  | Second Header |d|
 | ------------- | ------------- |d|
-| n=604  | Predicted: No  |Predicted: Yes  |
-| Predicted: No  | 0  |8 |
-|Predicted: Yes  |181  |423  |
+
 
 
