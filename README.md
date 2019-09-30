@@ -34,13 +34,13 @@ The model scored [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%
 | **Predicted: Yes**  | FN = 181  | TP = 423  |
 
 
-**true positives (TP)**: a image had tumor and the model predicted it.
+**true positives (TP)**: a image had tumor and the model detected it.
 
-**true negatives (TN)**: a image had no tumor and the model predicted it.
+**true negatives (TN)**: a image had no tumor and the model detected no tumor.
 
-**false positives (FP)**: a image had not tumor but the model predicted there was a tumor.
+**false positives (FP)**: a image had no tumor but the model detected there was a tumor.
 
-**false negatives (FN)**: a image had tumor but the model predicted there was not a tumor.
+**false negatives (FN)**: a image had tumor but the model could not detect it.
 
 | Rate | Score |
 | ------------- | ------------- |
