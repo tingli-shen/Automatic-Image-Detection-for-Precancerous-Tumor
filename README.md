@@ -27,6 +27,13 @@ The model scored [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%
 
 ### Confusion Matrix
 
+
+| n=604  | Predicted: No  | Predicted: Yes  |
+|---|---|---|
+| **Predicted: No**  | TN = 0  | FP = 8 |
+| **Predicted: Yes**  | FN = 181  | TP = 423  |
+
+
 **true positives (TP)**: a image had tumor and the model predicted it.
 
 **true negatives (TN)**: a image had no tumor and the model predicted it.
@@ -35,16 +42,12 @@ The model scored [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%
 
 **false negatives (FN)**: a image had tumor but the model predicted there was not a tumor.
 
-| n=604  | Predicted: No  | Predicted: Yes  |
-|---|---|---|
-| **Predicted: No**  | TN = 0  | FP = 8 |
-| **Predicted: Yes**  | FN = 181  | TP = 423  |
-
 | Rate | Score |
 | ------------- | ------------- |
 | Accuracy:  | 0.69  |
 | Presicion:  | 0.97  |
 | Recall:  | 0.7  |
 | F-Score:  | 0.81  |
+
 
 
