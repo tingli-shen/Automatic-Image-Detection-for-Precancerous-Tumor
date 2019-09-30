@@ -29,8 +29,8 @@ The model scored [dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%
 
 | n=604  | Predicted: No  | Predicted: Yes  |
 |---|---|---|
-| **Predicted: No**  | 0  | 8 |
-| **Predicted: Yes**  | 181  | 423  |
+| **Predicted: No**  | TN = 0  | FP = 8 |
+| **Predicted: Yes**  | FN = 181  | TP = 423  |
 
 | Rate | Score |
 | ------------- | ------------- |
