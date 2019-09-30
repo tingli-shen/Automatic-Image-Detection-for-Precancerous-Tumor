@@ -30,7 +30,7 @@ Confusion Matrix
 
 | n=604  | Predicted: No  | Predicted: Yes  |
 |---|---|---|
-| Predicted: No  | 0  | 8 |
-| Predicted: Yes  | 181  | 423  |
+| **Predicted: No**  | 0  | 8 |
+| **Predicted: Yes**  | 181  | 423  |
 
 
